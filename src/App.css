@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.div1{
+  background-image: url('./Images/8e6fae5d8fb74afbe32bad3dd1493bb9.jpg');
+  background-repeat: no-repeat;
+  background-size: "100%";
+}
+.div2{
+  background-image: url('./Images/amanda-jones-fDtePwt9DdA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
