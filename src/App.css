@@ -37,13 +37,92 @@
   }
 }
 
-.div1{
-  background-image: url('./Images/8e6fae5d8fb74afbe32bad3dd1493bb9.jpg');
-  background-repeat: no-repeat;
-  background-size: "100%";
+html {
+  overflow-x: hidden;
 }
-.div2{
-  background-image: url('./Images/amanda-jones-fDtePwt9DdA-unsplash.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
+.bgimgofHomePage {
+  background-image:url('./Images/Rectangle\ 1\ copy@3x.png');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:cover;
+  text-align: left;
+  margin-top: -20px;
+  color: white;
+}
+.bgimgofTeam {
+  background-image:
+  linear-gradient(rgba(23, 10, 68, 0.9), rgba(23, 10, 68, 0.9)), 
+  url('./Images/8e6fae5d8fb74afbe32bad3dd1493bb9.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  text-align: left;
+  margin-top: -20px;
+  color: white;
+}
+.bgimgofTeam1 {
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+  url('./Images/amanda-jones-fDtePwt9DdA-unsplash.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  text-align: left;
+  margin-top: -20px;
+  color: white;
+}
+.heading1{
+  line-height: 1;
+  padding: 0 0 30% 0;
+}
+.styleofHeading {
+  font-size: 46px;
+}
+
+.buttonOfReadmore {
+  background-color: #e80650;
+  border: none;
+  color: white;
+  height: 37px;
+  width: 105px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+}
+.styleofSection{
+  padding: 4% 5% 4% 5%;
+  background-color: #F5F8F9;
+  line-height: 1.5;
+  margin-top: -20px;
+}
+.styleofSection1{
+  padding: 1% 5% 4% 5%;
+  background-color: #e7c363;
+  line-height: 1;
+  margin-top: -5px;
+  color:white;
+}
+
+.bgimg{
+  background-image:linear-gradient(rgba(23, 10, 68, 0.9), rgba(23, 10, 68, 0.9)),
+  url('./Images/amanda-jones-fDtePwt9DdA-unsplash.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  text-align: center;
+  color: transparent; 
+  font-size: 130px; 
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: white;
+}
+
+.styleofBox {
+  background-color: #fff;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow:1px 1px 2px rgb(210, 213, 219) , 0 0 25px rgb(210, 213, 219) , 0 0 5px rgb(210, 213, 219) ;
 }

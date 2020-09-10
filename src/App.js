@@ -13,14 +13,39 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
     </div>
-    <img src={require('./Images/9c1b41c3-7897-48bc-902d-7e76af6bc94d.png')} width="100%">
-    </img>
-    {/*
-    <div style={{padding:"15px",textAlign:"center",backgroundColor:"#f5f5f5"}}>
-    <h3 style={{textAlign:"center",fontWeight:"normal"}}>
-      Register now and get <br/>Rs. 1000 Bonus
-    </h3>
-    <form>
+    <img src={require('./Images/9c1b41c3-7897-48bc-902d-7e76af6bc94d.png')} width="100%" />
+
+
+    <div class="styleofSection bgimgofHomePage">
+      <div class="row">
+        <div class="col-sm-12" align="center">
+          <h1 class="heading1">Thank you for registering Spartan Poker</h1>
+        </div>
+      </div>
+    </div>
+    
+      
+    <div class="styleofSection1">
+      <div class="row">
+        <div class="col-sm-12" align="center">
+          <h3><b>START PLAYING. START WINNING</b></h3><br/>
+        </div>
+	    </div>
+      <div class="row">
+        <div class="col-sm-9" align="center">
+          <p style={{fontSize: "30px"}}>Use code : WC210 add Rs. 200 more and get 210% bonus! </p>
+          </div>
+          <div class="col-sm-3">
+    	<input type="button" class="buttonOfReadmore" value="Login"/>
+          </div>
+      </div>
+    </div>
+
+{/*
+    <div className="styleofSection" >
+    <div className="row">
+      <div className="col-md-6 styleofBox" style={{textAlign:"center"}}>
+      <form >
       <div className="form-group">
         <input type="email" className="form-control" aria-describedby="emailHelp" placeholder="Email" style={{borderRadius:0,borderColor:"#e5a930"}}/>
       </div>
@@ -36,34 +61,65 @@ function App() {
       <div className="form-group">
         <input type="password" className="form-control" placeholder="Password" style={{borderRadius:0,borderColor:"#e5a930"}}/>
       </div>
-  <button type="submit" className="btn btn-lg btn-block" style={{borderRadius:25,backgroundColor:"#e5a930"}} >Submit</button>
-    </form><br/>*/}
-  <div className="div1">
-      <img src={require('./Images/user@3x.png')} style={{float:"left",margin:"75px"}} height="77px" width="50px"></img>
-      <h3 style={{color:"white"}}>10 Million+ Players</h3>
-   
-    
-    <img src={require('./Images/desktop and mobile@3x.png')}style={{float:"right"}} height="77px" width="50px"></img>
-      <h3 style={{color:"white"}}>Play Anytime ANywhere</h3>
-    
+      <button type="submit" className="btn btn-lg" style={{borderRadius:25,backgroundColor:"#e5a930",width:"300px"}} >Submit</button>
+    </form>
+    </div>
+    <div className="col-md-6 bgimg" >
+      <h1 style={{color:"white",paddingTop:"80px"}}><span style={{fontSize:"25px"}}>REGISTER NOW & GET</span><br/>
+      <span style={{color:"#e5a930",fontSize:"50px"}}>Rs.1000</span><br/>BONUS</h1>
+    </div>
+    </div>
+    <br/></div>*/}
 
-      <img src={require('./Images/security-shield@3x.png')} height="77px" width="50px"></img>
-      <h3 style={{color:"white"}}>100% Safe & Secure</h3>
-    
-    
-    <img src={require('./Images/games@3x.png')} height="77px" width="50px"></img>
-      <h3 style={{color:"white"}}>Best in class gaming experience</h3>
 
+
+  <div class="styleofSection bgimgofTeam">
+  <div class="row">
+    <div class="col-sm-6" align="center">
+    	<img src={require('./Images/user@3x.png')} height="40" width="70"/>
+    	<p style={{marginTop: "20px"}}><span style={{color:"#e5a930"}}>10 Million+</span> Players</p>
+    </div>
+    <div class="col-sm-6" align="center">
+    	<img src={require('./Images/desktop and mobile@3x.png')} height="40" width="70"/>
+    	<p style={{marginTop: "20px"}}><span style={{color:"#e5a930"}}>Play</span> Anytime Anywhere</p>
+    </div>
+  </div><br/>
+  <div class="row">
+    <div class="col-sm-6" align="center">
+    	<img src={require('./Images/security-shield@3x.png')} height="50" width="60"/>
+    	<p style={{marginTop: "20px"}}><span style={{color:"#e5a930"}}>100%</span> Safe & Secure</p>
+    </div>
+    <div class="col-sm-6" align="center">
+    	<img src={require('./Images/games@3x.png')} height="40" width="70"/>
+    	<p style={{marginTop: "20px"}}><span style={{color:"#e5a930"}}>Best in Class</span> Gaming Experience</p>
+    </div>
   </div>
-  <div className="div2">
-    <h2 align="center">Enter your Mobile Number and Download App</h2>
-      <form>
-        <div className="form-inline">
-          <input type="text" className="form-control" placeholder="Mobile Number"/>
-          <button type="submit" className="btn" style={{backgroundColor:"#e5a930"}}>Download</button>
-        </div>
-      </form>
   </div>
+
+  <div class="styleofSection1 bgimgofTeam1">
+	<div class="row">
+	    <div class="col-sm-12" align="center">
+	    	<h3><b>Enter your Mobile Number and Download App</b></h3><br/><br/>
+	    </div>
+	</div>
+  <div class="row" align="center">
+  	<div class="col-sm-1">
+    </div>
+    <div class="col-sm-4" style={{marginTop: "6px"}}>
+    	<input type="text" class="form-control" id="usr" placeholder="Mobile Number"/>
+    </div>
+    <div class="col-sm-2" style={{marginTop:"5px"}}>
+    	<input type="button" className="btn btn-warning" value="Download" style={{height:"40px",width:"200px"}}/>
+    </div>
+    <div class="col-sm-1">
+    	<img src={require('./Images/play store button@3x.png')} height="50" width="130"/>
+    </div>
+    <div class="col-sm-3">
+    	<img src={require('./Images/app store button@3x.png')} height="50" width="130"/>
+    </div>
+  </div></div>
+
+
   <div className="footer" style={{backgroundColor:"#170a44",height:"80px"}}>
   <pre style={{color:"#e5a930",paddingTop:"20px"}} align="center">Privacy Policy    Terms and Conditions</pre>
   <p style={{color:"white"}} align="center"><FaCopyright/> Quadrific Media Pvt ltd. All Rights Reserved</p>
